@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #dcdcdc;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+h1{
+    padding-top: 30px;
+    font-size: 50px;
+    font-weight: 400;
+}
+img{
+    width: 100px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.input{
+    width: 90%;
+    padding: 15px;
+    margin: 10px;
+    padding-left: 100px;
+    font-size: 25px;
+}
+input::placeholder{
+    font-size: 20px;
+}
+.btn{
+    padding: 5px;
+    margin: 5px;
+    background-color: black;
+    color: white;
+}
+.element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    width: 35vw;
+    box-shadow:10px 5px 5px gray ;
+}
+.text{
+    padding: 10px;
+    border: 3px;
+    border-radius: 3px solid gray;
+    width: 25vw;
+    font-size: 20px;
+    color: black;
+}
+.text::placeholder{
+    font-size: 14px;
+}
+.action{
+    padding-top: 7px;
+}
+.exit{
+    padding: 5px 7px;
+}
+.exit:hover{
+    background-color: red;
+    color: white;
+}
